@@ -1,0 +1,262 @@
+(footprint "TPSM84 Voltage Regulator"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.905 -4.445 0)
+		(layer "F.SilkS")
+		(uuid "8363027c-10cf-4495-a08b-3592350e0495")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPSM84 Voltage Regulator"
+		(at 5.715 5.08 0)
+		(layer "F.Fab")
+		(uuid "48dd73c7-3f84-4683-a978-6c587c8f9dda")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "711dd41f-c66a-495c-ab11-62bbe88e3902")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c50ae54d-69e6-4a65-bdbb-579fc6e742eb")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -2.84)
+		(end -5 3.89)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "61e03101-8779-4da7-8824-1d1606313914")
+	)
+	(fp_line
+		(start -5 3.89)
+		(end 5 3.89)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "654fc942-47a6-43fb-a8d0-c0894d335142")
+	)
+	(fp_line
+		(start 5 -2.84)
+		(end -5 -2.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1f9c5fba-b52d-4859-b484-64a1f156b023")
+	)
+	(fp_line
+		(start 5 3.89)
+		(end 5 -2.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "44580c3e-b0c5-4027-be9f-7f8dd781f0e2")
+	)
+	(fp_circle
+		(center -5.715 0)
+		(end -5.615 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "4bbb04a5-59c7-4bdb-b869-6761bc90089e")
+	)
+	(fp_line
+		(start -5.5 -3.47)
+		(end 5.5 -3.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "dbacc3e2-116b-40ed-a478-18ca220c1002")
+	)
+	(fp_line
+		(start -5.5 4.14)
+		(end -5.5 -3.47)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "e34452ef-720f-498b-a70a-d18e26403f1c")
+	)
+	(fp_line
+		(start 5.5 -3.47)
+		(end 5.5 4.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "c070d932-1028-4793-935e-50a895afa233")
+	)
+	(fp_line
+		(start 5.5 4.14)
+		(end -5.5 4.14)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "40fb79ee-cfbd-4c70-b9ab-c1b2edf5f0b9")
+	)
+	(fp_line
+		(start -5 -2.84)
+		(end -5 3.89)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "56ac70cf-5661-4291-a992-8fc5c94b7458")
+	)
+	(fp_line
+		(start -5 3.89)
+		(end 5 3.89)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ff63aedf-f34a-4358-af67-fc172e30ffdd")
+	)
+	(fp_line
+		(start 5 -2.84)
+		(end -5 -2.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "65663f93-31ae-4815-949a-b1dbcbb011ec")
+	)
+	(fp_line
+		(start 5 3.89)
+		(end 5 -2.84)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "60bc7400-d7f6-4942-938a-981d5c9e8b30")
+	)
+	(fp_circle
+		(center -5.715 0)
+		(end -5.615 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "55358bac-4e87-4ef0-b576-fa618b9bbaab")
+	)
+	(fp_text user "Vin"
+		(at -3.175 1.27 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "7015dd56-f54a-4a8a-a56a-dad3afc68d65")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Vout"
+		(at 1.905 1.27 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b43709ae-7d8e-4c45-ba9a-6164202a6300")
+		(effects
+			(font
+				(size 0.6 0.6)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -0.635 1.27 270)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "e1a9266d-f6c1-440e-b9f0-e3f6af3f7ba4")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.125)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 1.71 1.71)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "1b879fa1-42c2-4bd2-a78b-62e9009e205c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 1.71 1.71)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "9a789872-3e7d-48f9-ba78-8b7987b90896")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 1.71 1.71)
+		(drill 1.01)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "b49c0a08-8cea-4a88-b83e-4902fbbd84af")
+	)
+	(embedded_fonts no)
+)
