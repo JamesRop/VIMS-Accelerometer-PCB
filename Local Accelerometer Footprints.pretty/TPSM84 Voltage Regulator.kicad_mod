@@ -1,0 +1,148 @@
+(footprint "TPSM84 Voltage Regulator"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.905 -4.445 0)
+		(layer "F.SilkS")
+		(uuid "5563bf63-b413-4195-b5e3-b47d0e9f5026")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "TPSM84 Voltage Regulator"
+		(at 5.715 5.08 0)
+		(layer "F.Fab")
+		(uuid "cc88c289-3084-48d6-bc4f-e716de961b74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "61c130c2-21ac-44b9-ab73-f0419ba85e75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7502aed5-6315-4c91-b14a-e4b9ff190f48")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_rect
+		(start -4 -2)
+		(end 4.046325 1.928624)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "6749dd73-f3dc-497a-b915-c2ebed4c938f")
+	)
+	(fp_text user "Vin"
+		(at -4.6 4.4 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "360cc833-a7e1-4109-97b2-649059e9c995")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "GND"
+		(at -1.5 4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2595d2e0-38f6-4954-845f-8cb0277f5101")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "TPSM84205"
+		(at 1.9 -3.9 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "70393f79-adae-4de1-aa12-f09920a8465c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(fp_text user "Vout"
+		(at 2.1 4.3 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a0d097d6-b90e-4631-92c3-ca2f5c23f643")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+				(bold yes)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" thru_hole rect
+		(at -2.54 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0698085b-f494-47c3-bdd7-c59269c3ed3c")
+	)
+	(pad "2" thru_hole circle
+		(at 0 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "07bf3f1b-cb4c-468c-ae99-3e1bff88f84d")
+	)
+	(pad "3" thru_hole circle
+		(at 2.54 0)
+		(size 2 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "90ac230b-4e62-4850-9292-bc8888b6c119")
+	)
+	(embedded_fonts no)
+)
