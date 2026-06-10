@@ -653,7 +653,7 @@
     "subpart_id_separator": 0,
     "top_level_sheets": [
       {
-        "filename": "Accelerometer PCB 4-27 (with Voltage Regulator).kicad_sch",
+        "filename": "Accelerometer PCB (No Volt Reg).kicad_sch",
         "name": "Accelerometer PCB 4-27 (with Voltage Regulator)",
         "uuid": "3063477e-972a-487a-8c68-dcb59f1864f0"
       }
