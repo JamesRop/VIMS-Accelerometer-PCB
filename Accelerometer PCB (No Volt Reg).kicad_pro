@@ -498,7 +498,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Accelerometer PCB 4-27 (with Voltage Regulator).kicad_pro",
+    "filename": "Accelerometer PCB (No Volt Reg).kicad_pro",
     "version": 3
   },
   "net_settings": {
@@ -654,7 +654,7 @@
     "top_level_sheets": [
       {
         "filename": "Accelerometer PCB (No Volt Reg).kicad_sch",
-        "name": "Accelerometer PCB 4-27 (with Voltage Regulator)",
+        "name": "Accelerometer PCB (No Volt Reg)",
         "uuid": "3063477e-972a-487a-8c68-dcb59f1864f0"
       }
     ],
