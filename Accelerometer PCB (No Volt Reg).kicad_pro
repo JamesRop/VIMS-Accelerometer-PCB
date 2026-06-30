@@ -534,7 +534,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../New Downloads/",
       "specctra_dsn": "",
       "vrml": ""
     },

@@ -4869,18 +4869,6 @@
 		(uuid "f581dd1e-c2bc-440b-be97-dd5766c37235")
 	)
 	(rectangle
-		(start 62.23 128.27)
-		(end 100.33 154.94)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(uuid "f97ed399-1b43-4ef3-b5d8-878fccbfb74d")
-	)
-	(rectangle
 		(start 191.77 116.205)
 		(end 240.665 142.875)
 		(stroke
@@ -4973,12 +4961,6 @@
 		(uuid "ff2d9014-0620-473e-ba10-afd58bfe5a58")
 	)
 	(junction
-		(at 52.07 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "02a327e2-2495-41cf-9dba-35dc8fa2e38d")
-	)
-	(junction
 		(at 224.79 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5019,12 +5001,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d98dfd2-ff20-497a-a4a1-df875ea385fe")
-	)
-	(junction
-		(at 40.64 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "97ea6e9b-62b2-47fd-a435-29c60c90d544")
 	)
 	(junction
 		(at 71.12 68.58)
@@ -5143,6 +5119,14 @@
 		(uuid "1fb80452-583f-4f3b-8500-0335b3946fd5")
 	)
 	(no_connect
+		(at 40.64 143.51)
+		(uuid "30e1a954-0410-4b84-b7a1-a75d994b9ce4")
+	)
+	(no_connect
+		(at 52.07 135.89)
+		(uuid "37fb3121-30a7-40da-958f-389aae56c7bd")
+	)
+	(no_connect
 		(at 165.1 82.55)
 		(uuid "38d84e55-05a2-4ad1-8c18-d5aac305e7ae")
 	)
@@ -5161,6 +5145,10 @@
 	(no_connect
 		(at 147.32 140.97)
 		(uuid "45933107-5a78-47c2-b844-724f7077ba16")
+	)
+	(no_connect
+		(at 52.07 143.51)
+		(uuid "486db1b1-f8e7-4008-adb5-bddca81352e8")
 	)
 	(no_connect
 		(at 121.92 132.08)
@@ -5185,6 +5173,10 @@
 	(no_connect
 		(at 121.92 88.9)
 		(uuid "60434294-821f-42a6-957f-c1d0e5a91604")
+	)
+	(no_connect
+		(at 40.64 135.89)
+		(uuid "64df2d99-6534-468f-9c9e-776e6c357798")
 	)
 	(no_connect
 		(at 143.51 52.07)
@@ -5552,16 +5544,6 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 139.7) (xy 52.07 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4cbd58a6-b7ca-4807-ab21-b1a345be796a")
-	)
-	(wire
-		(pts
 			(xy 210.82 83.82) (xy 215.9 83.82)
 		)
 		(stroke
@@ -5739,26 +5721,6 @@
 			(type default)
 		)
 		(uuid "721c93c4-58b4-417f-af3f-f6443801c479")
-	)
-	(wire
-		(pts
-			(xy 52.07 139.7) (xy 58.42 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7237400c-2ad2-4b71-9ef9-1c360731a33d")
-	)
-	(wire
-		(pts
-			(xy 40.64 139.7) (xy 40.64 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "76bdd7ac-81c1-4caa-be0f-6dee1b1d8fc9")
 	)
 	(wire
 		(pts
@@ -6202,26 +6164,6 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 135.89) (xy 40.64 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da412561-1f97-40b2-8096-053c47465a5e")
-	)
-	(wire
-		(pts
-			(xy 40.64 139.7) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dff6072b-35e5-4e4f-ad3b-be48843438a3")
-	)
-	(wire
-		(pts
 			(xy 73.66 93.98) (xy 88.9 93.98)
 		)
 		(stroke
@@ -6259,16 +6201,6 @@
 			(type default)
 		)
 		(uuid "e9a29e5a-72b4-434b-ad3f-bdaab001ccbb")
-	)
-	(wire
-		(pts
-			(xy 52.07 135.89) (xy 52.07 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f830a24e-b22b-47f7-8cb4-4beeae7d9cca")
 	)
 	(wire
 		(pts
@@ -9079,83 +9011,6 @@
 			(project "Accelerometer PCB (No Volt Reg)"
 				(path "/3063477e-972a-487a-8c68-dcb59f1864f0"
 					(reference "C1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 58.42 139.7 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "a2bc6988-6fd9-4553-a3ae-ec5743c5be1d")
-		(property "Reference" "#PWR014"
-			(at 58.42 146.05 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 58.42 143.764 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.42 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 58.42 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 58.42 139.7 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5bcdeb4b-7dea-4e23-b8c7-71cff5f1c02d")
-		)
-		(instances
-			(project "Accelerometer PCB (No Volt Reg)"
-				(path "/3063477e-972a-487a-8c68-dcb59f1864f0"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
